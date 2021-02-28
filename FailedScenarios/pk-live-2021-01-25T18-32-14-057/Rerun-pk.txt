@@ -1,0 +1,7 @@
+src/test/java/global/APP/features/checkout.feature:102:161
+src/test/java/global/APP/features/cart.feature:204
+src/test/java/member/APP/features/account.feature:107:183
+src/test/java/global/APP/features/order.feature:31
+src/test/java/member/APP/features/voucher.feature:18
+src/test/java/member/APP/features/address.feature:52
+src/test/java/global/APP/features/sort.feature:35

@@ -1,0 +1,168 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 58,
+        "name": "Apply expired code voucher on checkout",
+        "description": "",
+        "id": "daraz-voucher-management;apply-expired-code-voucher-on-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12375324900,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I select the venture",
+            "match": {
+              "location": "StartScreenSteps.iSelectTheVenture()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31870952400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I search a Product using SKU for \"Checkout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checkout\"",
+                  "offset": 33
+                }
+              ],
+              "location": "SearchProductSteps.iSearchAProductFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 889321100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I select the product for checkout",
+            "match": {
+              "location": "CheckOutSteps.iSelectTheProductForCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11434704600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I select Buy Now button",
+            "match": {
+              "location": "CheckOutSteps.iSelectBuyNow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5126614900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I login with old buyer account",
+            "match": {
+              "location": "SignUpStep.iLoginWithOldBuyerAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25159768700,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I scroll down to the voucher",
+            "match": {
+              "location": "VoucherSteps.iScrollDownToTheVoucher()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 919365500,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I enter the expired voucher code on checkout",
+            "match": {
+              "location": "VoucherSteps.iEnterTheExpiredVoucherCodeOnCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1124814800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I select voucher apply button",
+            "match": {
+              "location": "VoucherSteps.iSelectVoucherApplyButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1235156600,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should see error message",
+            "match": {
+              "location": "VoucherSteps.iShouldSeeErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@voucher"
+          },
+          {
+            "name": "@21001814"
+          },
+          {
+            "name": "@apply_expired_code_voucher_on_checkout"
+          }
+        ]
+      }
+    ],
+    "name": "Daraz Voucher Management",
+    "description": "",
+    "id": "daraz-voucher-management",
+    "keyword": "Feature",
+    "uri": "src/test/java/member/APP/features/voucher.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@voucher",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]

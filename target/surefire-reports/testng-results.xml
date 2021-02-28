@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="118483" started-at="2021-02-26T10:31:54Z" finished-at="2021-02-26T10:33:52Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="Runner.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:global.APP.starter.Runner@51bd8b5c]" name="scenario" class="global.APP.starter.Runner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Device1" duration-ms="118483" started-at="2021-02-26T10:31:54Z" finished-at="2021-02-26T10:33:52Z">
+      <class name="global.APP.starter.Runner">
+        <test-method status="PASS" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:global.APP.starter.Runner@51bd8b5c]" name="setUpClass" is-config="true" duration-ms="14929" started-at="2021-02-26T10:31:54Z" finished-at="2021-02-26T10:32:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SM-G955F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[988673503850495234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:global.APP.starter.Runner@51bd8b5c]" name="scenario" duration-ms="91100" started-at="2021-02-26T10:32:09Z" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2021-02-26T10:33:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Apply expired code voucher on checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Daraz Voucher Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="mobileScreenShot(org.testng.ITestResult)[pri:0, instance:global.APP.starter.Runner@51bd8b5c]" name="mobileScreenShot" is-config="true" duration-ms="3" started-at="2021-02-26T10:33:40Z" finished-at="2021-02-26T10:33:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario status=SUCCESS method=Runner.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:global.APP.starter.Runner@51bd8b5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileScreenShot -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:global.APP.starter.Runner@51bd8b5c]" name="tearDownClass" is-config="true" duration-ms="116" started-at="2021-02-26T10:33:40Z" finished-at="2021-02-26T10:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="getRerunFile()[pri:0, instance:global.APP.starter.Runner@51bd8b5c]" name="getRerunFile" is-config="true" duration-ms="39" started-at="2021-02-26T10:33:40Z" finished-at="2021-02-26T10:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRerunFile -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:global.APP.starter.Runner@51bd8b5c]" name="teardownBrowser" is-config="true" duration-ms="11945" started-at="2021-02-26T10:33:40Z" finished-at="2021-02-26T10:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- global.APP.starter.Runner -->
+    </test> <!-- Device1 -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
